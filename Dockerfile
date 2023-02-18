@@ -1,4 +1,4 @@
-FROM python:3.10.6
+FROM python:3.10.6-slim
 COPY . /home
 COPY . /home/data
 WORKDIR /home/data
